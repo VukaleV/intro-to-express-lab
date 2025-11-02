@@ -1,10 +1,8 @@
-// Import Express
+
 const express = require('express');
 
-// Create Express app
 const app = express();
 
-// PORT
 const PORT = 3000;
 
 // 1 Be Polite, Greet the User
@@ -80,8 +78,8 @@ app.get('/shoes', (req, res) => {
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`✅ Server is listening on http://localhost:${PORT}`);
-  console.log(`🟢 Try examples:`);
+  console.log(`Server is listening on http://localhost:${PORT}`);
+  console.log(`Try examples:`);
   console.log(`   → /greetings/Christy`);
   console.log(`   → /roll/6`);
   console.log(`   → /collectibles/1`);
